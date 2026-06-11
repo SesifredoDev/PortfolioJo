@@ -1,7 +1,7 @@
 import "./styles.css";
 import scorewavePoster from "../assets/scorewave.png";
-import edwardVideo from "../assets/edward-scissorhands.mp4";
-import spiritedVideo from "../assets/spirited-away.mp4";
+
+const publicAssetUrl = import.meta.env.BASE_URL;
 
 const projectData = {
   spirited: {
@@ -11,7 +11,7 @@ const projectData = {
     tags: ["Screen scoring", "Logic Pro X", "MIDI"],
     media: {
       type: "local-video",
-      src: spiritedVideo,
+      src: `${publicAssetUrl}videos/spirited-away.mp4`,
       title: "Spirited Away Alternative Score",
     },
   },
@@ -22,7 +22,7 @@ const projectData = {
     tags: ["Screen scoring", "Logic Pro X", "Film"],
     media: {
       type: "local-video",
-      src: edwardVideo,
+      src: `${publicAssetUrl}videos/edward-scissorhands.mp4`,
       title: "Edward Scissorhands Alternative Score",
     },
   },
@@ -122,6 +122,8 @@ const projectCards = document.querySelectorAll("[data-category]");
 const projectButtons = document.querySelectorAll("[data-project-card]");
 const copyButtons = document.querySelectorAll("[data-copy]");
 const navLinks = document.querySelectorAll(".site-nav a");
+const inPageLinks = document.querySelectorAll('a[href^="#"]');
+const siteHeader = document.querySelector(".site-header");
 const detail = {
   player: document.querySelector("[data-project-player]"),
   kicker: document.querySelector("[data-project-kicker]"),
@@ -132,6 +134,62 @@ const detail = {
 
 if (year) {
   year.textContent = new Date().getFullYear();
+}
+
+function getScrollTarget(hash) {
+  if (!hash || hash === "#") {
+    return null;
+  }
+
+  if (hash === "#top") {
+    return document.getElementById("top");
+  }
+
+  return document.getElementById(decodeURIComponent(hash.slice(1)));
+}
+
+function focusScrollTarget(target) {
+  const hadTabIndex = target.hasAttribute("tabindex");
+
+  if (!hadTabIndex) {
+    target.setAttribute("tabindex", "-1");
+  }
+
+  target.focus({ preventScroll: true });
+
+  if (!hadTabIndex) {
+    target.addEventListener(
+      "blur",
+      () => {
+        target.removeAttribute("tabindex");
+      },
+      { once: true },
+    );
+  }
+}
+
+function scrollToSection(hash) {
+  const target = getScrollTarget(hash);
+
+  if (!target) {
+    return;
+  }
+
+  const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const headerOffset = siteHeader?.offsetHeight ?? 0;
+  const sectionOffset = target.id === "top" ? 0 : 18;
+  const nextScrollY = Math.max(
+    0,
+    target.getBoundingClientRect().top + window.scrollY - headerOffset - sectionOffset,
+  );
+
+  window.scrollTo({
+    top: nextScrollY,
+    behavior: prefersReducedMotion ? "auto" : "smooth",
+  });
+
+  window.history.pushState(null, "", hash);
+  focusScrollTarget(target);
 }
 
 function selectProject(projectId) {
@@ -240,6 +298,22 @@ copyButtons.forEach((button) => {
     window.setTimeout(() => {
       button.textContent = originalLabel;
     }, 1600);
+  });
+});
+
+inPageLinks.forEach((link) => {
+  link.addEventListener("click", (event) => {
+    const linkUrl = new URL(link.href);
+
+    if (
+      linkUrl.pathname !== window.location.pathname ||
+      linkUrl.origin !== window.location.origin
+    ) {
+      return;
+    }
+
+    event.preventDefault();
+    scrollToSection(linkUrl.hash);
   });
 });
 

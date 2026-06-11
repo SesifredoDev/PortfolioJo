@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
-    "build": "vite build",
+    "build": "node scripts/generate-seo-pages.mjs && vite build",
     "preview": "vite preview --host 127.0.0.1",
-    "test": "node --check src/main.js && vite build"
+    "test": "node --check src/main.js && node --check scripts/generate-seo-pages.mjs && npm run build"
   },
   "private": true,
   "devDependencies": {

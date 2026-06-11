@@ -1,0 +1,23 @@
+{
+  "name": "PortfoliJo - Jo Sockett Portfolio",
+  "short_name": "PortfoliJo",
+  "description": "Portfolio of Jo Sockett, composer and sound designer for film, games, ADR and experimental audio.",
+  "start_url": "https://sesifredodev.github.io/PortfolioJo/",
+  "scope": "https://sesifredodev.github.io/PortfolioJo/",
+  "display": "standalone",
+  "background_color": "#f3d3d4",
+  "theme_color": "#812332",
+  "icons": [
+    {
+      "src": "https://sesifredodev.github.io/PortfolioJo/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://sesifredodev.github.io/PortfolioJo/og-image.png",
+      "sizes": "1800x1100",
+      "type": "image/png"
+    }
+  ]
+}

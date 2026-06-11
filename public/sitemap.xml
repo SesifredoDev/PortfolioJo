@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+>
+  <url>
+    <loc>https://sesifredodev.github.io/PortfolioJo/</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://sesifredodev.github.io/PortfolioJo/og-image.png</image:loc>
+      <image:title>Jo Sockett music and sound design portfolio</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sesifredodev.github.io/PortfolioJo/projects/</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://sesifredodev.github.io/PortfolioJo/og-image.png</image:loc>
+      <image:title>Jo Sockett music and sound design portfolio</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sesifredodev.github.io/PortfolioJo/projects/spirited-away-alternative-score/</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://sesifredodev.github.io/PortfolioJo/og-image.png</image:loc>
+      <image:title>Spirited Away Alternative Score</image:title>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://sesifredodev.github.io/PortfolioJo/og-image.png</video:thumbnail_loc>
+      <video:title>Spirited Away Alternative Score</video:title>
+      <video:description>An alternative score to Spirited Away, written and produced in Logic Pro X using MIDI sounds.</video:description>
+      <video:content_loc>https://sesifredodev.github.io/PortfolioJo/videos/spirited-away.mp4</video:content_loc>
+      <video:player_loc>https://sesifredodev.github.io/PortfolioJo/videos/spirited-away.mp4</video:player_loc>
+      <video:publication_date>2026-06-11</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://sesifredodev.github.io/PortfolioJo/projects/edward-scissorhands-alternative-score/</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://sesifredodev.github.io/PortfolioJo/og-image.png</image:loc>
+      <image:title>Edward Scissorhands Alternative Score</image:title>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://sesifredodev.github.io/PortfolioJo/og-image.png</video:thumbnail_loc>
+      <video:title>Edward Scissorhands Alternative Score</video:title>
+      <video:description>A rewritten score for Edward Scissorhands, produced with Logic Pro X and MIDI sounds.</video:description>
+      <video:content_loc>https://sesifredodev.github.io/PortfolioJo/videos/edward-scissorhands.mp4</video:content_loc>
+      <video:player_loc>https://sesifredodev.github.io/PortfolioJo/videos/edward-scissorhands.mp4</video:player_loc>
+      <video:publication_date>2026-06-11</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://sesifredodev.github.io/PortfolioJo/projects/agent-mx-z3ro-adr-sound-design/</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://sesifredodev.github.io/PortfolioJo/og-image.png</image:loc>
+      <image:title>Agent MX Z3RO ADR and Sound Design</image:title>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://sesifredodev.github.io/PortfolioJo/og-image.png</video:thumbnail_loc>
+      <video:title>Agent MX Z3RO ADR and Sound Design</video:title>
+      <video:description>ADR recording and editing, temp score editing and sound design for Agent MX Z3RO, including Jo&#39;s voice work for Agent Sierra.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/EXLT3gbgUSg</video:player_loc>
+      <video:publication_date>2026-06-11</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://sesifredodev.github.io/PortfolioJo/projects/the-firefly-flute-cello-piano-trio/</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://sesifredodev.github.io/PortfolioJo/og-image.png</image:loc>
+      <image:title>The Firefly - Flute, Cello and Piano Trio</image:title>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://sesifredodev.github.io/PortfolioJo/og-image.png</video:thumbnail_loc>
+      <video:title>The Firefly - Flute, Cello and Piano Trio</video:title>
+      <video:description>A flute, cello and piano trio inspired by minimalism and Steve Reich, exploring unusual time signatures and limited musical material.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/e19ETowKhXE</video:player_loc>
+      <video:publication_date>2026-06-11</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://sesifredodev.github.io/PortfolioJo/projects/i-want-to-go-home-composition-study/</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://sesifredodev.github.io/PortfolioJo/og-image.png</image:loc>
+      <image:title>I Want to go Home - Composition Study</image:title>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://sesifredodev.github.io/PortfolioJo/og-image.png</video:thumbnail_loc>
+      <video:title>I Want to go Home - Composition Study</video:title>
+      <video:description>A piece focused on atonality and unconventional composing, built as a practical study in bending theory rules.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/NcOSf1qAutM</video:player_loc>
+      <video:publication_date>2026-06-11</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://sesifredodev.github.io/PortfolioJo/projects/captain-seahorse-voyage-of-doom/</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://sesifredodev.github.io/PortfolioJo/og-image.png</image:loc>
+      <image:title>Captain Seahorse and the Voyage of Doom</image:title>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://sesifredodev.github.io/PortfolioJo/og-image.png</video:thumbnail_loc>
+      <video:title>Captain Seahorse and the Voyage of Doom</video:title>
+      <video:description>A seven-movement orchestral programme piece about a ship lost at sea and returning to safety, connected by a five-note motif.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/Fq6xgqzLbVM</video:player_loc>
+      <video:publication_date>2026-06-11</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://sesifredodev.github.io/PortfolioJo/projects/maybe-just-one-more-sonic-arts/</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://sesifredodev.github.io/PortfolioJo/og-image.png</image:loc>
+      <image:title>Maybe Just One More - Sonic Arts</image:title>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://sesifredodev.github.io/PortfolioJo/og-image.png</video:thumbnail_loc>
+      <video:title>Maybe Just One More - Sonic Arts</video:title>
+      <video:description>A single wind chime recording transformed with stretch plugins, EQ, reverb and distortion into a blurred, disorientating sound world.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/-zcUWyBUYmk</video:player_loc>
+      <video:publication_date>2026-06-11</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://sesifredodev.github.io/PortfolioJo/projects/hollow-knight-game-audio/</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://sesifredodev.github.io/PortfolioJo/og-image.png</image:loc>
+      <image:title>Hollow Knight Soundtrack and Sound Design</image:title>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://sesifredodev.github.io/PortfolioJo/og-image.png</video:thumbnail_loc>
+      <video:title>Hollow Knight Soundtrack and Sound Design</video:title>
+      <video:description>Music, sound design, editing and mix work for a Hollow Knight playthrough, using Logic Pro X, Pro Tools and sourced effects.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/aFMa1FinjpI</video:player_loc>
+      <video:publication_date>2026-06-11</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://sesifredodev.github.io/PortfolioJo/projects/stardew-valley-game-audio/</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://sesifredodev.github.io/PortfolioJo/og-image.png</image:loc>
+      <image:title>Stardew Valley Soundtrack and Sound Design</image:title>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://sesifredodev.github.io/PortfolioJo/og-image.png</video:thumbnail_loc>
+      <video:title>Stardew Valley Soundtrack and Sound Design</video:title>
+      <video:description>Original soundtrack and sound design work for a Stardew Valley playthrough, edited and mixed in Pro Tools.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/xMAcoljWejg</video:player_loc>
+      <video:publication_date>2026-06-11</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://sesifredodev.github.io/PortfolioJo/projects/what-do-you-love-electroacoustic/</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://sesifredodev.github.io/PortfolioJo/og-image.png</image:loc>
+      <image:title>What do you Love? - Electroacoustic Piece</image:title>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://sesifredodev.github.io/PortfolioJo/og-image.png</video:thumbnail_loc>
+      <video:title>What do you Love? - Electroacoustic Piece</video:title>
+      <video:description>An electroacoustic piece created in Pro Tools from voice recordings of people answering one question: what do you love?</video:description>
+      <video:player_loc>https://www.youtube.com/embed/Lnxa8ygV53Q</video:player_loc>
+      <video:publication_date>2026-06-11</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+</urlset>

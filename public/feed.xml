@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>PortfoliJo - Jo Sockett Portfolio Projects</title>
+    <link>https://sesifredodev.github.io/PortfolioJo/projects/</link>
+    <description>Film scoring, game audio, ADR, sound design, composition and experimental audio work by Jo Sockett.</description>
+    <language>en-GB</language>
+    <lastBuildDate>Thu, 11 Jun 2026 00:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Spirited Away Alternative Score</title>
+      <link>https://sesifredodev.github.io/PortfolioJo/projects/spirited-away-alternative-score/</link>
+      <guid isPermaLink="true">https://sesifredodev.github.io/PortfolioJo/projects/spirited-away-alternative-score/</guid>
+      <description>An alternative score to Spirited Away, written and produced in Logic Pro X using MIDI sounds.</description>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Edward Scissorhands Alternative Score</title>
+      <link>https://sesifredodev.github.io/PortfolioJo/projects/edward-scissorhands-alternative-score/</link>
+      <guid isPermaLink="true">https://sesifredodev.github.io/PortfolioJo/projects/edward-scissorhands-alternative-score/</guid>
+      <description>A rewritten score for Edward Scissorhands, produced with Logic Pro X and MIDI sounds.</description>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Agent MX Z3RO ADR and Sound Design</title>
+      <link>https://sesifredodev.github.io/PortfolioJo/projects/agent-mx-z3ro-adr-sound-design/</link>
+      <guid isPermaLink="true">https://sesifredodev.github.io/PortfolioJo/projects/agent-mx-z3ro-adr-sound-design/</guid>
+      <description>ADR recording and editing, temp score editing and sound design for Agent MX Z3RO, including Jo&#39;s voice work for Agent Sierra.</description>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>The Firefly - Flute, Cello and Piano Trio</title>
+      <link>https://sesifredodev.github.io/PortfolioJo/projects/the-firefly-flute-cello-piano-trio/</link>
+      <guid isPermaLink="true">https://sesifredodev.github.io/PortfolioJo/projects/the-firefly-flute-cello-piano-trio/</guid>
+      <description>A flute, cello and piano trio inspired by minimalism and Steve Reich, exploring unusual time signatures and limited musical material.</description>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>I Want to go Home - Composition Study</title>
+      <link>https://sesifredodev.github.io/PortfolioJo/projects/i-want-to-go-home-composition-study/</link>
+      <guid isPermaLink="true">https://sesifredodev.github.io/PortfolioJo/projects/i-want-to-go-home-composition-study/</guid>
+      <description>A piece focused on atonality and unconventional composing, built as a practical study in bending theory rules.</description>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Captain Seahorse and the Voyage of Doom</title>
+      <link>https://sesifredodev.github.io/PortfolioJo/projects/captain-seahorse-voyage-of-doom/</link>
+      <guid isPermaLink="true">https://sesifredodev.github.io/PortfolioJo/projects/captain-seahorse-voyage-of-doom/</guid>
+      <description>A seven-movement orchestral programme piece about a ship lost at sea and returning to safety, connected by a five-note motif.</description>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Maybe Just One More - Sonic Arts</title>
+      <link>https://sesifredodev.github.io/PortfolioJo/projects/maybe-just-one-more-sonic-arts/</link>
+      <guid isPermaLink="true">https://sesifredodev.github.io/PortfolioJo/projects/maybe-just-one-more-sonic-arts/</guid>
+      <description>A single wind chime recording transformed with stretch plugins, EQ, reverb and distortion into a blurred, disorientating sound world.</description>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Hollow Knight Soundtrack and Sound Design</title>
+      <link>https://sesifredodev.github.io/PortfolioJo/projects/hollow-knight-game-audio/</link>
+      <guid isPermaLink="true">https://sesifredodev.github.io/PortfolioJo/projects/hollow-knight-game-audio/</guid>
+      <description>Music, sound design, editing and mix work for a Hollow Knight playthrough, using Logic Pro X, Pro Tools and sourced effects.</description>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stardew Valley Soundtrack and Sound Design</title>
+      <link>https://sesifredodev.github.io/PortfolioJo/projects/stardew-valley-game-audio/</link>
+      <guid isPermaLink="true">https://sesifredodev.github.io/PortfolioJo/projects/stardew-valley-game-audio/</guid>
+      <description>Original soundtrack and sound design work for a Stardew Valley playthrough, edited and mixed in Pro Tools.</description>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>What do you Love? - Electroacoustic Piece</title>
+      <link>https://sesifredodev.github.io/PortfolioJo/projects/what-do-you-love-electroacoustic/</link>
+      <guid isPermaLink="true">https://sesifredodev.github.io/PortfolioJo/projects/what-do-you-love-electroacoustic/</guid>
+      <description>An electroacoustic piece created in Pro Tools from voice recordings of people answering one question: what do you love?</description>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
