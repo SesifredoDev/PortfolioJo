@@ -21,10 +21,3 @@ The site should act as a professional work portfolio: a clear place for employer
 4. **About** - a short professional background focused on development experience, strengths and working approach.
 5. **Contact** - direct routes to email, GitHub, LinkedIn, CV and any other relevant professional profiles.
 
-## Tone
-
-The description and site copy should feel professional, practical and development-focused. It should avoid vague claims and instead describe real work, concrete technologies and the value each project demonstrates.
-
-## Site Assets
-
-Use `banner.jpg` as the main portfolio banner and `icon.jpg` as the profile or site icon.
