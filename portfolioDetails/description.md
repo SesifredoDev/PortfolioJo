@@ -1,5 +1,7 @@
 # Developer Work Portfolio
 
+Live Link: https://sesifredodev.github.io/PortfolioJo/
+
 This portfolio presents my work as a developer, with a focus on practical projects, technical problem solving, clean implementation and the ability to build useful digital products from concept through delivery.
 
 The site should act as a professional work portfolio: a clear place for employers, collaborators and clients to understand what I build, how I think, which technologies I use and what kind of development work I can take on. It should highlight completed projects, technical strengths, project context, implementation details and direct contact routes.
