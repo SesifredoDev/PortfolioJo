@@ -1,5 +1,8 @@
 import "./styles.css";
 import scorewavePoster from "../assets/scorewave.png";
+import fireflyScorePdf from "../assets/The Firefly full score.pdf";
+import homeScorePdf from "../assets/I Want to go Home full score.pdf";
+import seahorseScorePdf from "../assets/Captain Seahorse and the Voyage of Doom full score.pdf";
 
 const publicAssetUrl = import.meta.env.BASE_URL;
 
@@ -47,6 +50,10 @@ const projectData = {
       id: "e19ETowKhXE",
       title: "The Firefly by Jo Sockett",
     },
+    score: {
+      url: fireflyScorePdf,
+      filename: "The Firefly full score.pdf",
+    },
   },
   home: {
     kicker: "Composition study",
@@ -58,6 +65,10 @@ const projectData = {
       id: "NcOSf1qAutM",
       title: "I Want to go Home",
     },
+    score: {
+      url: homeScorePdf,
+      filename: "I Want to go Home full score.pdf",
+    },
   },
   seahorse: {
     kicker: "Orchestral programme",
@@ -68,6 +79,10 @@ const projectData = {
       type: "youtube",
       id: "Fq6xgqzLbVM",
       title: "Captain Seahorse and the Voyage of Doom",
+    },
+    score: {
+      url: seahorseScorePdf,
+      filename: "Captain Seahorse and the Voyage of Doom full score.pdf",
     },
   },
   maybe: {
@@ -130,6 +145,7 @@ const detail = {
   title: document.querySelector("[data-project-title]"),
   text: document.querySelector("[data-project-text]"),
   tags: document.querySelector("[data-project-tags]"),
+  scoreLink: document.querySelector("[data-project-score]"),
 };
 
 if (year) {
@@ -203,6 +219,7 @@ function selectProject(projectId) {
   detail.title.textContent = project.title;
   detail.text.textContent = project.text;
   renderProjectMedia(project.media);
+  renderProjectScore(project.score);
   detail.tags.replaceChildren(
     ...project.tags.map((tag) => {
       const item = document.createElement("span");
@@ -216,6 +233,29 @@ function selectProject(projectId) {
     button.closest(".project-card").classList.toggle("is-selected", isSelected);
     button.setAttribute("aria-pressed", String(isSelected));
   });
+}
+
+function renderProjectScore(score) {
+  if (!detail.scoreLink) {
+    return;
+  }
+
+  const hasScoreDownload =
+    typeof score?.url === "string" &&
+    score.url.trim().length > 0 &&
+    typeof score?.filename === "string" &&
+    score.filename.trim().length > 0;
+
+  if (!hasScoreDownload) {
+    detail.scoreLink.hidden = true;
+    detail.scoreLink.removeAttribute("href");
+    detail.scoreLink.removeAttribute("download");
+    return;
+  }
+
+  detail.scoreLink.hidden = false;
+  detail.scoreLink.href = score.url;
+  detail.scoreLink.download = score.filename;
 }
 
 function renderProjectMedia(media) {

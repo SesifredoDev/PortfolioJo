@@ -1071,6 +1071,10 @@ h3 {
   color: var(--shell);
 }
 
+.scores-link[hidden] {
+  display: none;
+}
+
 .project-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
